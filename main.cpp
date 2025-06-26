@@ -367,7 +367,7 @@ int main(int argc, char **argv) {
 
             std::string ext = file.extension();
 
-            std::string valid_ext[] = {".avi", ".mp4", ".png"};
+            std::string valid_ext[] = {".avi", ".mp4", ".png", ".jpg"};
             int len = sizeof(valid_ext)/sizeof(valid_ext[0]);
             if (!containExt(ext, valid_ext, len)) {
                 continue;
